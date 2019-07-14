@@ -3,10 +3,10 @@
 # Run:   docker run -p 8444:4000 phx-bma
 #
 # >>>>>> DockerHub
-# Build: docker build -t <yourname>/phx-bma .
+# Build: docker build -t <yourname>/bma .
 # Login: docker login -u <yourname>
-# Push:  docker push <yourname>/phx-bma
-# Run:   docker run -p 8444:4000 <yourname>/phx-bma
+# Push:  docker push <yourname>/bma
+# Run:   docker run -p 8444:4000 <yourname>/bma
 
 FROM elixir:1.9
 
