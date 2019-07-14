@@ -17,10 +17,10 @@ defmodule BmaWeb.Router do
   scope "/", BmaWeb do
     pipe_through :browser
 
-    get "/",      HomeController, :index
-    get "/urls",  HomeController, :urls
-    get "/logs",  HomeController, :logs
-    get "/stats", HomeController, :stats
+    get "/",              HomeController, :index
+    get "/resources",     HomeController, :resources
+    get "/architecture",  HomeController, :architecture
+    get "/roadmap",       HomeController, :roadmap
 
     live "/demo", Demo
   end
